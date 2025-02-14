@@ -1,0 +1,29 @@
+[
+    {
+      "question": "What is 1 + 1?",
+      "answers": [
+        { "text": "6", "isCorrect": false },
+        { "text": "2", "isCorrect": true },
+        { "text": "9", "isCorrect": false },
+        { "text": "12", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What color is the sky?",
+      "answers": [
+        { "text": "red", "isCorrect": false },
+        { "text": "green", "isCorrect": false },
+        { "text": "blue", "isCorrect": true },
+        { "text": "orange", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "When does it snow?",
+      "answers": [
+        { "text": "Summer", "isCorrect": false },
+        { "text": "Spring", "isCorrect": false },
+        { "text": "Winter", "isCorrect": true },
+        { "text": "Fall", "isCorrect": false }
+      ]
+    }
+]
