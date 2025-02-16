@@ -1,9 +1,9 @@
 import Quiz from '../../client/src/components/Quiz';
+import { mount } from 'cypress/react';
 
 describe('<Quiz />', () => {
     beforeEach(() => {
-        // Mount the Quiz component before each test
-        cy.mount(<Quiz />);
+        mount(<Quiz />);
         cy.intercept('GET', '/api/questions/random', { fixture: 'questions.json' }).as('getQuestions');
     });
 

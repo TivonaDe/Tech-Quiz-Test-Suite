@@ -9,6 +9,7 @@
       "composite": true,
       "jsx": "react-jsx",
       "strict": true
+      
     },
-    "include": ["./**/*.tsx", "./**/*.ts", "./**/*.js", "./**/*.jsx"]
+    "include": ["./**/*.tsx", "./**/*.ts", "./**/*.js", "./**/*.jsx",  "../client/src/components/Quiz.tsx"]
   }
