@@ -31,8 +31,12 @@ describe('Tech Quiz Game Cycle', () => {
             }).as('getQuestions');
 
             // Visit the page
-            cy.visit('/');
-            
+            const baseUrl = Cypress.config('baseUrl');
+            if (baseUrl) {
+                cy.visit(baseUrl);
+            } else {
+                throw new Error('Base URL is not defined');
+            }
             // Start the quiz
             cy.contains('button', 'Start Quiz').click();
 
